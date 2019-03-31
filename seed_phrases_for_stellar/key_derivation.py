@@ -32,7 +32,7 @@ import hmac
 
 # BIP-0044 path format for Stellar keypair derivation, as specified in
 # https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0005.md
-ACCOUNT_PATH_FORMAT = "m/44'/148'/%d'"
+ACCOUNT_PATH_FORMAT = "m/44'/2017'/%d'"
 
 
 # the index of the first hardened key, per BIP-0032 and SLIP-0010
