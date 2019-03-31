@@ -32,13 +32,13 @@ if sys.version_info[:3] < (3, 5, 0):
 setup(
     name='seed-phrases-for-kin',
     version=version.__version__,
-    description='Utility for generating Stellar accounts from BIP39/Electrum seed phrases',
+    description='Utility for generating Kin accounts from BIP39/Electrum seed phrases',
     long_description=long_description,
     url='https://github.com/chancity/seed-phrases-for-kin',
     author='chancity',
     author_email='chancey@kinny.io',
     license="http://opensource.org/licenses/MIT",
-    keywords='Stellar deterministic keypair generation '
+    keywords='Kin deterministic keypair generation '
              'BIP39 Electrum mnemonic seed phrase',
     packages=['seed_phrases_for_kin'],
     install_requires=[
@@ -48,8 +48,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'seed-phrase-to-stellar-keys'
-            '=seed_phrases_for_kin.seed_phrase_to_stellar_keys:main',
+            'seed-phrase-to-kin-keys'
+            '=seed_phrases_for_kin.seed_phrase_to_kin_keys:main',
         ]
     },
     classifiers=[

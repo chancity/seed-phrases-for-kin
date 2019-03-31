@@ -2,8 +2,8 @@
 # -*- python -*-
 # -*- coding: UTF-8 -*-
 
-# seed_phrase_to_stellar_keys
-# Copyright (C) 2017 Francisco Reverbel
+# seed_phrase_to_kin_keys
+# Copyright (C) 2017 chancity
 #
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation files
@@ -149,10 +149,10 @@ def main():
     from .version import __version__
 
     parser = argparse.ArgumentParser(
-        description='''Generate Stellar account keys from BIP-0039/Electrum 
+        description='''Generate Kin account keys from BIP-0039/Electrum 
                        seed phrases''',
         epilog='''The default behavior of %(prog)s is to show just the keys 
-                  for one Stellar account (the primary account). By default, 
+                  for one Kin account (the primary account). By default, 
                   the binary seed derived from the seed phrase is not shown. 
                   This behavior can be changed by the '-n N' and '-s' switches.
                '''
