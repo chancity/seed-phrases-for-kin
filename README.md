@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/reverbel/seed-phrases-for-kin.svg)](https://travis-ci.org/reverbel/seed-phrases-for-kin)
+[![Build Status](https://travis-ci.org/chancity/seed-phrases-for-kin.svg)](https://travis-ci.org/chancity/seed-phrases-for-kin)
 
 seed-phrases-for-kin
 ========================
